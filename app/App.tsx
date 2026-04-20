@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { BudgetListScreen } from './src/screens/BudgetListScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello World!</Text>
+      <BudgetListScreen />
       <StatusBar style="auto" />
     </View>
   );
