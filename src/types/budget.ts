@@ -1,4 +1,4 @@
-// /src/types/budget.ts
+// src/types/budget.ts
 
 export enum BudgetStatus {
   DRAFT = 'Rascunho',
@@ -8,7 +8,7 @@ export enum BudgetStatus {
 }
 
 export interface ServiceItem {
-  id: string; // para listas/renderização
+  id: string;
   title: string;
   description?: string;
   unitPrice: number; // em centavos
@@ -21,7 +21,7 @@ export interface Budget {
   client: string;
   status: BudgetStatus;
   items: ServiceItem[];
-  discount?: number; // percentual
-  createdAt: string;
-  updatedAt: string;
+  discount?: number; // percentual 0-100
+  createdAt: string; // ISO string
+  updatedAt: string; // ISO string
 }
