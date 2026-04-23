@@ -1,6 +1,6 @@
 # Orçamentos App
 
-Aplicativo mobile para gerenciamento de orçamentos de serviços, desenvolvido com **React Native + Expo SDK 54** e TypeScript. Using node v24.14.1 (npm v11.11.0)
+Aplicativo mobile para gerenciamento de orçamentos de serviços, desenvolvido com **React Native + Expo SDK 54** e TypeScript. Using node v20.20.2 (npm v10.8.2)
 
 ---
 
